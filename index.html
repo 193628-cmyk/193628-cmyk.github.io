@@ -11,8 +11,6 @@
 head>
   <meta charset="UTF-8">
   <title>Image Click Swap</title>
-  <style>
-    /* Optional: Add some style */
     img {
       width: 300px;
       cursor: pointer; /* Makes the image look clickable */
@@ -21,16 +19,16 @@ head>
   <h1>Click the image to change it!</h1>
   
   <!-- Initial image -->
-  <img id="image" src="image1.jpg" alt="Click to change image" onclick="changeImage()">
+  <img id="curtains" src="https://chamdor.com/cdn/shop/files/EC1262-6_600x.jpg?v=1752760190" alt="Click to change image" onclick="changeImage()">
 
   <script>
     // JavaScript function to change the image source
     function changeImage() {
       var img = document.getElementById("image");
-      if (img.src.match("image1.jpg")) {
-        img.src = "image2.jpg"; // Replace with your second image path
+      if (img.src.match("https://chamdor.com/cdn/shop/files/EC1262-6_600x.jpg?v=1752760190")) {
+        img.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.templeandwebster.com.au%2FMarlo-Blockout-Eyelet-Single-Panel-Curtain-BAHA1212.html&psig=AOvVaw2Htcv4zyD2Wr81LUIRkUNu&ust=1755314137388000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwi-6qXu7IuPAxWqb2wGHR0pONkQjRx6BAgAEBo"; // Replace with your second image path
       } else {
-        img.src = "image1.jpg"; // Replace with your first image path
+        img.src = "https://chamdor.com/cdn/shop/files/EC1262-6_600x.jpg?v=1752760190"; // Replace with your first image path
       }
     }
   </script>
