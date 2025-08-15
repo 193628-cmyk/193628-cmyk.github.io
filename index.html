@@ -8,5 +8,32 @@
 <body>
 <p>hello chat</p><br><p>this is my awesome website</p><br>
   <h2>this is where i will record all the things i do(everythin in class)</h2>  
+head>
+  <meta charset="UTF-8">
+  <title>Image Click Swap</title>
+  <style>
+    /* Optional: Add some style */
+    img {
+      width: 300px;
+      cursor: pointer; /* Makes the image look clickable */
+    }
+
+  <h1>Click the image to change it!</h1>
+  
+  <!-- Initial image -->
+  <img id="image" src="image1.jpg" alt="Click to change image" onclick="changeImage()">
+
+  <script>
+    // JavaScript function to change the image source
+    function changeImage() {
+      var img = document.getElementById("image");
+      if (img.src.match("image1.jpg")) {
+        img.src = "image2.jpg"; // Replace with your second image path
+      } else {
+        img.src = "image1.jpg"; // Replace with your first image path
+      }
+    }
+  </script>
+
 </body>
 </html>
