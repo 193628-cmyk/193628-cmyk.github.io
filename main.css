@@ -4,5 +4,5 @@ h1 {
 .disguised-link {
     color: blue;        
     text-decoration: underline;
-    cursor: link;          
+    cursor: pointer;          
 }
