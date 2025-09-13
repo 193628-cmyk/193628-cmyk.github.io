@@ -1,8 +1,7 @@
 h1 {
   black
 }
-.disguised-link {
-    color: blue;        
-    text-decoration: underline;
-    cursor: pointer;          
-}
+a.plain-text {
+  color: blue;           
+  text-decoration: underline;    
+  cursor: pointer;           
