@@ -2,7 +2,7 @@ h1 {
   black
 }
 .disguised-link {
-    color: inherit;        
-    text-decoration: none;
-    cursor: text;          
+    color: blue;        
+    text-decoration: underline;
+    cursor: link;          
 }
